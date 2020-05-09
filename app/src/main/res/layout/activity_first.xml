@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck"
+    tools:context=".FirstActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFEB3B">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/bubblegum_sans"
+                android:gravity="center"
+                android:text="WELCOME"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:background="@drawable/et_bck"
+        android:layout_marginTop="280dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:text="Back"
+            android:layout_gravity="right"
+            android:layout_marginLeft="80dp"
+            />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Next"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="80dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

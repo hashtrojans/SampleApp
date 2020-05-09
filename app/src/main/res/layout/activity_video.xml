@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck"
+    tools:context=".VideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/vv1"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_shape"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="38dp"
+        android:text="Back"
+        />
+
+</LinearLayout>
